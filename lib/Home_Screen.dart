@@ -86,38 +86,6 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(15.0),
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20.0)),
-                      clipBehavior: Clip.antiAliasWithSaveLayer,
-                      child: Stack(
-                        alignment: Alignment.bottomCenter,
-                        children: [
-                          Image(
-                            image: NetworkImage(
-                                'https://riseapps.co/wp-content/uploads/2020/04/img_How-to-Make-a-Shopping-App-for-Android-and-iOS-1024x768-min-1024x768.jpg'),
-                            // width: 200.0,
-                            // height: 100.0,
-                          ),
-                          Container(
-                            color: Colors.grey[700].withOpacity(0.7),
-                            height: 60,
-                            child: Align(
-                              alignment: Alignment.center,
-                              child: Text(
-                                'Online Courses',
-                                style: TextStyle(
-                                    fontSize: 20, color: Colors.white),
-                                textAlign: TextAlign.center,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
                 ],
               ),
             )));
